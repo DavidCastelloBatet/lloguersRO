@@ -92,4 +92,4 @@ Internament, es fa la comprobacio si l'usuari ja existeix:
     - Ordre per l'operador logistic de la recollida (i cobro de l'operació a l'entrega) i entrega al destinatari.
     - Posterior recollida i entrega a origen
 
-
+  - A l'aparta articles llogats, podrem consultar, en forma de llistat els articles que tenim llogats.
