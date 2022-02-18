@@ -78,8 +78,8 @@ Internament, es fa la comprobacio si l'usuari ja existeix:
   - Des de l'apartat Dades personals pots editar la fitxa d'usuari
   - Des de l'apartat Articles per llogar (forma de llistat) pots donar d'alta, editar (alta i editar - pop-up amb formulari) i donar de baixa (boto i solicitud de confirmació)els articlies que vulguis posar en lloguer.
      - Les dades bàsiques necessaries son:
-        - id: assignat automaticament (us intern)
-        - eina disponible (us intern)
+        - id: assignat automaticament (us intern) (desapareixera del llist però NO de la BBDD)
+        - eina disponible (si/no) (us intern)
         - Nom de l'article
         - Tipus d'eina
         - Preu / Temps disponible
@@ -89,6 +89,7 @@ Internament, es fa la comprobacio si l'usuari ja existeix:
 
   - Des del cercador, en una nova pantalla, apareixera en forma de llistat, les eines que retorna la cerca. Des del llistat podras seleccionar l'article i, en forma de modal, podràs confirmar el lloguer.
   - Internament es generara:
+    - S'haura de comprobar si l'article està disponible
     - Ordre per l'operador logistic de la recollida (i cobro de l'operació a l'entrega) i entrega al destinatari.
     - Posterior recollida i entrega a origen
 
