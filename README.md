@@ -27,11 +27,11 @@
 
 - Monetització:
 
-  - La plataforma inserirà publicitat i programes d'afiliats
+  - Es gestionarà el cobrament contrareembols a l'entrega de l'eina
   - % de l'operació
 
-- Gestió d'usuaris posen a lloguer / lloguen
-- Gestió d'articles a lloguer (alta / baixa)
+- Gestió d'usuaris posen a lloguer / lloguen   ???
+- Gestió d'articles a lloguer (alta / baixa)  ???
 
 ### A nivell d'usuari que posa l'article a lloguer
 
@@ -76,7 +76,7 @@ Internament, es fa la comprobacio si l'usuari ja existeix:
 <img width="1042" alt="Captura de pantalla 2022-02-18 a les 12 01 02" src="https://user-images.githubusercontent.com/56063955/154670477-0dd815a8-3ffa-4d06-a967-0ad2b21a4cd1.png">
 
   - Des de l'apartat Dades personals pots editar la fitxa d'usuari
-  - Des de l'apartat Articles per llogar (forma de llistat) pots donar d'alta, editar (alta i editar - pop-up amb formulari) i donar de baixa (boto i solicitud de confirmació)els articlies que vulguis llogar
+  - Des de l'apartat Articles per llogar (forma de llistat) pots donar d'alta, editar (alta i editar - pop-up amb formulari) i donar de baixa (boto i solicitud de confirmació)els articlies que vulguis posar en lloguer.
      - Les dades bàsiques necessaries son:
         - id: assignat automaticament (us intern)
         - eina disponible (us intern)
@@ -87,6 +87,9 @@ Internament, es fa la comprobacio si l'usuari ja existeix:
         - Fotografia
 
 
-
+  - Des del cercador, en una nova pantalla, apareixera en forma de llistat, les eines que retorna la cerca. Des del llistat podras seleccionar l'article i, en forma de modal, podràs confirmar el lloguer.
+  - Internament es generara:
+    - Ordre per l'operador logistic de la recollida (i cobro de l'operació a l'entrega) i entrega al destinatari.
+    - Posterior recollida i entrega a origen
 
 
