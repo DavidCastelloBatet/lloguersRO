@@ -52,5 +52,11 @@
 Incloure diagrama de fluxe
 
 ## Pantalles
+- Estructura pàgina index
+<img width="1035" alt="pagina inicial" src="https://user-images.githubusercontent.com/56063955/154659261-7fb22918-4e65-4e6b-b8ef-33cc8864a78e.png">
+- Estructura pàgines eines per llogar / necessito una eina
+<img width="1031" alt="Captura de pantalla 2022-02-18 a les 10 54 08" src="https://user-images.githubusercontent.com/56063955/154659660-70eaaaca-b46c-4dbc-a648-9e2250859b03.png">
 
-Inclore Mockups
+
+
+
