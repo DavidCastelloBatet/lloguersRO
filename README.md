@@ -38,24 +38,45 @@
 - La persona que vol posar a lloguer haurà d'establir:
   - Registre / Login
   - Objecte a llogar:
-    - Preu - Temps del lloguer
+    - Preu 
+    - Temps del lloguer
     - Com i on s'entrega / recull l'eina
 
 ### A nivell d'usuari que lloga l'article
 
 - Buscador d'articles
 - Selecció de l'article
-- Lloc d'enviament (retorn de l'eina)
+- Lloc d'enviament (retorn de l'eina), que coincidirà amb l'adreça de l'emisor
 
-## Diagrama de fluxe
-
-Incloure diagrama de fluxe
 
 ## Pantalles
-- Estructura pàgina index
+
+### Estructura pàgina index
 <img width="1035" alt="pagina inicial" src="https://user-images.githubusercontent.com/56063955/154659261-7fb22918-4e65-4e6b-b8ef-33cc8864a78e.png">
-- Estructura pàgines eines per llogar / necessito una eina
+
+### Estructura pàgines eines per llogar / necessito una eina
 <img width="1031" alt="Captura de pantalla 2022-02-18 a les 10 54 08" src="https://user-images.githubusercontent.com/56063955/154659660-70eaaaca-b46c-4dbc-a648-9e2250859b03.png">
+A part del text explicatiu, et convida a loguejarte / registrarte
+
+### Pantalla d'introduccio de mail / contrasenya
+<img width="1031" alt="Captura de pantalla 2022-02-18 a les 11 33 04" src="https://user-images.githubusercontent.com/56063955/154666309-5eb53e72-b004-4f0a-b114-417220fd83fd.png">
+
+Internament, es fa la comprobacio si l'usuari ja existeix:
+  - si no existeix, apareix pantalla de registre completa
+    Camps bàsics
+    - nom de l'usuari
+    - dni usuari
+    - carrer
+    - codi postal
+    - població
+    - telefon
+    
+  - si existeix, vas a la fitxa completa d'usuari
+
+<img width="1042" alt="Captura de pantalla 2022-02-18 a les 12 01 02" src="https://user-images.githubusercontent.com/56063955/154670477-0dd815a8-3ffa-4d06-a967-0ad2b21a4cd1.png">
+
+
+
 
 
 
