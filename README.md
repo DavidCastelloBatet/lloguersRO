@@ -75,7 +75,16 @@ Internament, es fa la comprobacio si l'usuari ja existeix:
 
 <img width="1042" alt="Captura de pantalla 2022-02-18 a les 12 01 02" src="https://user-images.githubusercontent.com/56063955/154670477-0dd815a8-3ffa-4d06-a967-0ad2b21a4cd1.png">
 
-
+  - Des de l'apartat Dades personals pots editar la fitxa d'usuari
+  - Des de l'apartat Articles per llogar (forma de llistat) pots donar d'alta, editar (alta i editar - pop-up amb formulari) i donar de baixa (boto i solicitud de confirmació)els articlies que vulguis llogar
+     - Les dades bàsiques necessaries son:
+        - id: assignat automaticament (us intern)
+        - eina disponible (us intern)
+        - Nom de l'article
+        - Tipus d'eina
+        - Preu / Temps disponible
+        - Descripció
+        - Fotografia
 
 
 
