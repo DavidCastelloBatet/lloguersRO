@@ -46,3 +46,11 @@
 - Buscador d'articles
 - Selecció de l'article
 - Lloc d'enviament (retorn de l'eina)
+
+## Diagrama de fluxe
+
+Incloure diagrama de fluxe
+
+## Pantalles
+
+Inclore Mockups
